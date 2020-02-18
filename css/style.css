@@ -1,14 +1,10 @@
-/* Colors
-
-rgba(19, 128, 36, 0.54);
-
-*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 html, 
 body {
     height: 100%;
     font-size: 16px;
-    font-family: 'Cubano-Regular';
+    font-family: 'Noto Sans TC','Nunito-Regular';
     background: url('../img/pattern.jpg') center center;
 }
 
@@ -47,9 +43,9 @@ body {
 }
 
 .moto {
-    font-family: 'Cubano-Regular';
-    font-size: 3rem;
-    margin-top: 245px;
+  
+    font-size: 4rem;
+    margin-top: 135px;
     margin-left: 350px;
     text-align: center;
 }
@@ -99,8 +95,8 @@ body {
 
 
 /* SPANS */
-.bold-green {
-    color: rgba(19, 128, 36, 0.9);
+.bold-black {
+    color: rgba(0, 0, 0, 1);
 }
 
 .green-underline {
@@ -110,7 +106,7 @@ body {
 
 /* NAVBAR */
 .navbar-brand {
-    font-family: 'Cubano-Regular';
+   
     padding-right: 15px;
 }
 
