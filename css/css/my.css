@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+
+img {
+    width: 700px;
+    height: 400px;
+    background-clip: padding-box;
+}
+
+.circular {
+    width: 30em;
+    height: 30em;
+    margin: 1em auto 0;
+    padding: 3.5em;
+    margin-bottom: 30px;
+    border-radius: 180px;
+    color: white;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, .5);
+    background-color: #9173ab;
+    font-size: 12px;
+}
+
+.circular svg {
+    display: block;
+    overflow: visible;
+    transition: 800s linear transform;
+}
+
+.circular svg:hover {
+    transform: rotate(-200turn);
+}
+
+.circular text {
+    fill: currentColor
+}
+
+.circular path {
+    fill: none;
+}
+
+.text-box {
+    color: white;
+    background: rgb(145, 115, 171);
+    width: auto;
+    height: 420px;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, .5);
+}
+
+.text-box-1 {
+    color: white;
+    background: rgb(145, 115, 171);
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, .5);
+}
+
+hr {
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, .5);
+}
+
+.word {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}

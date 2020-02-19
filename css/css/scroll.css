@@ -1,0 +1,25 @@
+@keyframes rowup {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, -307px, 0);
+        transform: translate3d(0, -307px, 0);
+    }
+}
+.list{
+    width: 300px;
+    color:#ffffff;
+   text-align: center;
+    margin: 1px auto;
+    position: relative;
+    height: 277px;
+    overflow: hidden;
+}
+
+.list .rowup{
+    -webkit-animation: 45s rowup linear infinite normal;
+    animation: 45s rowup linear infinite normal;
+    position: relative;
+}

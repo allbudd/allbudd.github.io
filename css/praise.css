@@ -1,0 +1,39 @@
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+.text{
+    font-size: 35px;
+    font-weight: bold;   
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    fill: none;
+    stroke-width: 2px;
+    stroke-dasharray: 90 310;
+    animation: stroke 8s infinite linear;
+  
+    
+}
+.text-1{
+    stroke: #ffffff;
+    text-shadow: 0 0 5px #fff;
+    animation-delay: -2s;
+}
+.text-2{
+    stroke: #9173ab;
+    text-shadow: 0 0 5px #9173ab;
+    animation-delay: -4s;
+}
+.text-3{
+    stroke: #000000;
+    text-shadow: 0 0 5px #000;
+    animation-delay: -6s;
+}
+.text-4{
+    stroke: #fff;
+    text-shadow: 0 0 5px #fff;
+    animation-delay: -8s;
+}
+
