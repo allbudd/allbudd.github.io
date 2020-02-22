@@ -84,30 +84,15 @@ hr {
    
   }
   
- .bg-yellowgreen {   
-   background-color: yellowgreen !important; 
- } 
-
+ 
  .row-margin {
      margin-top: 5px;
      margin-bottom: 5px;
    
  }
+ .text-deepping{
+     color: #c10699;
+ }
  /* test css */
 
- .bg-1 {
-    
-     background-color: rgb(226, 255, 130);
-    }
-
- .bg-2 {
-     background-color:rgb(195,255,130);
-    }
-
-.bg-3 {
-        background-color:rgb(138,255,130);
-       }
-   
-.bg-4 {
-        background-color:rgb(130,255,172);
-       }
+ 
