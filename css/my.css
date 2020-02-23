@@ -2,6 +2,7 @@
 body {
     font-family: 'Noto Sans TC', sans-serif;
     padding-top: 54px;
+    font-size: 18px;
 }
 
 @media (min-width: 992px) {
@@ -61,6 +62,7 @@ img {
     width: auto;
     height: 420px;
     box-shadow: 4px 6px 15px rgba(0, 0, 0, .5);
+    font-size: 18px;
 }
 
 .text-box-1 {
