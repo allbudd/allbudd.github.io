@@ -23,6 +23,7 @@ img {
     width: 700px;
     height: 400px;
     background-clip: padding-box;
+    font-size: 20px;
 }
 
 .circular {
@@ -93,7 +94,10 @@ hr {
    
  }
  .text-deepping{
-     color: #c10699;
+    color: #c10699;
+     font-size: 20px;
+    
+     
  }
  /* test css */
 
